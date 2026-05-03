@@ -1,51 +1,93 @@
-🐍 Snake Game using Python Turtle
+# 🐍 Snake Game (Python 3.14 + Pygame)
 
-A classic Snake Game built using Python’s turtle graphics module. Control the snake, eat food, grow longer, and try to beat your high score!
+A simple and fun Snake Game built using **Python 3.14** and **Pygame**.
+Control the snake, eat food, and try to get the highest score without crashing!
 
-📌 Features
-🎮 Simple keyboard controls (Arrow keys)
-🍎 Random food generation
-🐍 Growing snake body
-💥 Collision detection (walls & self)
-📊 Score and High Score tracking
-⚡ Increasing speed as you progress
-🛠️ Technologies Used
-Python 3.x
-turtle module
-time module
-random module
-🚀 How to Run
-Make sure Python is installed (recommended: Python 3.10+)
-Save the file as:
-snake_game.py
-Run the program:
-python snake_game.py
-🎮 Controls
-Key	Action
-⬆️ Up Arrow	Move Up
-⬇️ Down Arrow	Move Down
-⬅️ Left Arrow	Move Left
-➡️ Right Arrow	Move Right
-🧠 Game Logic
-The snake moves continuously in the current direction
-Eating food increases:
-Score
-Snake length
-Game speed
-Game resets when:
-Snake hits the wall
-Snake hits itself
-📂 Project Structure
-Snake-Game/
-│── snake_game.py
-│── README.md
-🖥️ Preview
-Black background game window
-Green snake 🟩
-Red food 🔴
-Score displayed at the top
-📈 Future Improvements
-Add sound effects 🔊
-Add pause/resume feature ⏸️
-Add levels/difficulty 🎯
-Save high score permanently 💾
+---
+
+## 🎮 Features
+
+* Classic Snake gameplay
+* Smooth movement controls
+* Score tracking
+* Game Over screen with restart option
+* Beginner-friendly code
+
+---
+
+## 🛠️ Requirements
+
+* Python **3.14**
+* Pygame
+
+Install Pygame:
+
+```bash
+pip install pygame
+```
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/snake-game.git
+cd snake-game
+python snake.py
+```
+
+---
+
+## 🎯 Controls
+
+| Key | Action       |
+| --- | ------------ |
+| ⬅️  | Move Left    |
+| ➡️  | Move Right   |
+| ⬆️  | Move Up      |
+| ⬇️  | Move Down    |
+| R   | Restart Game |
+| Q   | Quit Game    |
+
+---
+
+## 🧠 Game Logic
+
+* Snake moves in a grid
+* Eats food to grow
+* Score increases with each food
+* Game ends on:
+
+  * Wall collision
+  * Self collision
+
+---
+
+## 📂 Project Structure
+
+```
+snake-game/
+│
+├── snake.py
+└── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add sound effects
+* Difficulty levels
+* High score saving
+* Better UI
+
+---
+
+## 👨‍💻 Author
+
+**b vamsidhar reddy**
+Section: **3**
+
+---
+
+⭐ If you like this project, give it a star!
